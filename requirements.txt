@@ -1,0 +1,12 @@
+langchain
+langchain-community
+langchain-experimental
+streamlit
+pandas
+matplotlib
+seaborn
+pygwalker
+jupyterlab
+tiktoken
+tabulate
+python-dotenv
