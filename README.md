@@ -1,4 +1,4 @@
-# 🤖 Chat With Your Data – Data Analysis Chatbot
+# Chat With Your Data – Data Analysis Chatbot
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
   <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
@@ -14,7 +14,7 @@ Người dùng có thể **tải file CSV**, đặt câu hỏi bằng **ngôn ng
 
 ---
 
-## 🎯 Mục tiêu Project
+## Mục tiêu Project
 - Xây dựng chatbot có khả năng **phân tích dữ liệu tự động**
 - Áp dụng tư duy **LLM Agent cho Data Analysis**
 - Mọi câu trả lời đều dựa trên **kết quả code**
@@ -22,7 +22,7 @@ Người dùng có thể **tải file CSV**, đặt câu hỏi bằng **ngôn ng
 
 ---
 
-## 🧠 Cách Chatbot Hoạt Động
+## Cách Chatbot Hoạt Động
 
 1. Người dùng upload file **CSV**
 2. Dữ liệu được load vào `DataFrame df`
@@ -40,22 +40,22 @@ Người dùng có thể **tải file CSV**, đặt câu hỏi bằng **ngôn ng
 
 ---
 
-## 🔎 Quy Trình Phân Tích (Agent Logic)
+## Quy Trình Phân Tích (Agent Logic)
 
 Agent được điều khiển bằng prompt cố định với **3 bước bắt buộc**:
 
-### 1️⃣ Khám phá dữ liệu
+### 1️. Khám phá dữ liệu
 - `df.info()`
 - `df.describe()`
 
 
-### 2️⃣ Xử lý & tính toán
+### 2️. Xử lý & tính toán
 - `groupby`
 - lọc dữ liệu
 - tính tổng, tỷ lệ, thống kê
 
 
-### 3️⃣ Trực quan hóa
+### 3️. Trực quan hóa
 - Tự động chọn biểu đồ:
   - Bar
   - Line
@@ -97,23 +97,25 @@ Sao chép mã
 
 ---
 
-## ▶️ Cách Chạy Project
+## Cách Chạy Project
 
-### 1️⃣ Clone repository
-```bash
+### 1️. Clone repository
 git clone https://github.com/HoangKhang226/DA-For-Everyone.git
 cd DA-For-Everyone
-2️⃣ Cài thư viện
+
+### 2️. Cài thư viện
 bash
 Sao chép mã
 pip install -r requirements.txt
-3️⃣ Thiết lập biến môi trường
+
+### 3️. Thiết lập biến môi trường
 Tạo file .env:
 
 env
 Sao chép mã
 GOOGLE_API_KEY=your_api_key_here
-4️⃣ Chạy ứng dụng
+
+### 4️. Chạy ứng dụng
 bash
 Sao chép mã
 streamlit run Chat_With_Your_Data.py
