@@ -76,15 +76,14 @@ Người dùng có thể:
 2️. Cài thư viện  
   - pip install -r requirements.txt  
 3️. Thiết lập biến môi trường  
-  - Tạo file .env:    
-    - GOOGLE_API_KEY=your_api_key_here  
+  - Tạo file .env: GOOGLE_API_KEY=your_api_key_here
 4️. Chạy ứng dụng  
   - streamlit run Chat_With_Your_Data.py  
 
 ## Tính Năng Nổi Bật  
   - Chat với dữ liệu CSV  
   - Tự sinh & thực thi code Pandas  
-Hiển thị:  
+## Hiển thị:  
   - Câu trả lời  
   - Code đã chạy  
   - Bảng dữ liệu  
