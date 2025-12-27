@@ -42,7 +42,6 @@ Người dùng có thể:
 
 ## Cấu trúc dự án
 
-```text
 ├── src
 │   ├── agents
 │   │   ├── action.py          # Chức năng classify_intent, planner, executor
