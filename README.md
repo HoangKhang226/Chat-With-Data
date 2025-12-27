@@ -1,5 +1,5 @@
 # Chat With Data – Data Analysis Chatbot
-
+https://github.com/user-attachments/assets/f0dfceb7-8d16-4cac-8535-17961161e7ff
 **Chat With Your Data** là một ứng dụng **chatbot phân tích dữ liệu** được xây dựng bằng **Streamlit + LangChain Agent**.  
 Người dùng có thể:
 
