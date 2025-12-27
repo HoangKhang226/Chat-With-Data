@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 import streamlit as st
 
 
@@ -8,7 +9,8 @@ def print_chart(code: str, df: pd.DataFrame):
         # 1. Làm sạch code: Loại bỏ dấu nháy ngược nếu AI bao quanh code bằng markdown
         clean_code = code.strip().replace("```python", "").replace("```", "")
 
-        local_vars = {"plt": plt, "df": df}
+        fig, ax = plt.subplots(figsize=(10, 6))
+        local_vars = {"plt": plt, "df": df, "ax": ax, "sns": sns}
 
         # 2. Biên dịch code đã làm sạch
         compiled_code = compile(clean_code, "<string>", "exec")
