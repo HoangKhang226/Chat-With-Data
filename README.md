@@ -71,15 +71,15 @@ Người dùng có thể:
 ##  Cách Chạy Project
 
 1️. Clone repository  
-  git clone https://github.com/HoangKhang226/DA-For-Everyone.git 
-  cd Chat-With-Data  
+  - git clone https://github.com/HoangKhang226/DA-For-Everyone.git 
+  - cd Chat-With-Data  
 2️. Cài thư viện  
-  pip install -r requirements.txt  
+  - pip install -r requirements.txt  
 3️. Thiết lập biến môi trường  
-  Tạo file .env:    
-  GOOGLE_API_KEY=your_api_key_here  
+  - Tạo file .env:    
+    - GOOGLE_API_KEY=your_api_key_here  
 4️. Chạy ứng dụng  
-  streamlit run Chat_With_Your_Data.py  
+  - streamlit run Chat_With_Your_Data.py  
 
 ## Tính Năng Nổi Bật  
   - Chat với dữ liệu CSV  
